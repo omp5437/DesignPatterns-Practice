@@ -35,7 +35,7 @@ public class WeatherStation implements Subject{
     @Override
     public void removeObserver(Observer obs) {
       int t=observers.indexOf(obs);
-      if(t>0){
+      if(t>=0){
           observers.remove(obs);
       }else{
           System.out.println("Not a subscriber!!");

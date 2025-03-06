@@ -12,6 +12,8 @@ public class Main {
        ws.updateWeatherData(25,46,56);
        ws.updateWeatherData(20,55,30);
        ws.updateWeatherData(18,34,11);
+       ws.removeObserver(webObserver);
+       ws.updateWeatherData(18,34,11);
 
     }
 }
